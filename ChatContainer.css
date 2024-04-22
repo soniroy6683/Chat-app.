@@ -1,0 +1,42 @@
+.chat-main{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.chat-header {
+    display: flex;
+    justify-content: space-around;
+}
+
+.chat-header p {
+    font-size: 20px;
+    margin-bottom: 0;
+    font-weight: bold;
+}
+
+.p-text {
+    margin: 10px auto;
+    text-align: center;
+    font-size: 20px;
+}
+
+.log-out-btn button {
+    background-color: transparent;
+    border: 1px solid transparent;
+    border-radius: 10px;
+    padding: 10px;
+    font-size: 40px;
+}
+    
+
+.log-out-btn button:hover {
+    box-shadow: 2px 2px rgb(218, 40, 129);
+}
+
+.chat-container{
+    background-image: url(https://wallpapercave.com/wp/wp6110843.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+    padding: 10px 30px;
+}
